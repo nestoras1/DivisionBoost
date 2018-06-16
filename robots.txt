@@ -1,0 +1,4 @@
+user-agent: *
+allow: /
+
+Sitemap: https://divisionboost.eu/sitemap.xml

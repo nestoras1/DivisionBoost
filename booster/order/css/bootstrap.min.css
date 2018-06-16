@@ -1,0 +1,649 @@
+body{
+    min-width:1410px;
+}
+.nav-div{
+    width:70%;
+    text-align:left;
+    position:absolute;
+    color:white;
+    left:15%;
+    right:15%;
+}
+.nav-bar-left{
+    left:0;
+}
+.nav-bar-right{
+    right:0;
+}
+
+.divlabel_solo_rank1{
+   margin-top:13px;
+   margin-right:2px;
+}
+.divlabel_solo_rank2{
+    margin-top:13px;
+    margin-right:10px;
+}
+.divlabel_duo_rank1{
+    margin-top:13px;
+    margin-right:2px;
+}
+.divlabel_duo_rank2{
+    margin-top:13px;
+    margin-right:10px;
+}
+.divlabel_balance1{
+    margin-top:13px;
+    margin-right:2px;
+}
+.divlabel_balance2{
+    margin-top:13px;
+}
+
+.leftdiv{
+   
+}
+
+.centerdiv{
+    margin-top:-585px;
+}
+
+.rightdiv{
+    float:right;
+    margin-top:-500px;
+}
+
+.progressdiv{
+    width:70%;
+    margin-left:350px;
+    height:500px;
+}
+
+.progress-icons{
+ width:606px;
+ height:253px;
+}
+
+.div-spaceforchat{
+ width:606px;
+ height:253px;
+}
+
+.progressbar-div{
+    width:600px;
+    height:450px;
+    float:left;
+    margin-left:20px;
+}
+
+.progressdivstart{
+    float:left;
+    width:192px;
+    margin-left:10px;
+    text-align:center;
+}
+
+.progressdivcurrent{
+    float:left;
+    width:192px;
+    margin-left:10px;
+    text-align:center;
+
+}
+
+.progressdivdesired{
+    float:left;
+    width:192px;
+    margin-left:10px;
+    text-align:center;
+
+}
+.progressbarcss{
+    width:600px;
+    height:23px;
+    margin-bottom:50px;
+}
+
+
+
+
+/*---------------------------------------customer-chat----------------------------------------*/
+
+.chatbox{
+    width:400px;
+    min-width:390px;
+    height:420px;
+    background: #eaeaea;
+    padding: 20px;
+    margin: 0px;
+    box-shadow: 0 3px #ccc;
+    margin-left:630px;
+    margin-top:-260px;
+}
+
+.chatlogs{
+    padding: 10px;
+    width:100%;
+    height: 300px;
+    background: #ffffff;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.chatlogs::-webkit-scrollbar{
+    width:10px;
+}
+
+.chatlogs::-webkit-scrollbar-thumb{
+    border-radius:5px;
+    background: rgba(0,0,0,.1);
+}
+
+.chat{
+    display: flex;
+    flex-flow: row wrap;
+    align-items:flex-end;
+    margin-bottom: 10px;
+}
+
+.chat .user-photo{
+    width: 60px;
+    height: 60px;
+    background: #ccc;
+    border-radius: 50%;
+}
+
+.chat .chat-message{
+    width:75%;
+    padding: 8px;
+    margin: 1px 5px 0;
+    background: #1ddced;
+    border-radius: 4px;
+    color: #000000;
+    font-size: 15px;
+}
+
+.user1 .chat-message{
+    background: #1cc0fe;
+    margin-left:90px;
+}
+
+.user2 .chat-message{
+    background: #dddddd;
+    order: -1;
+}
+
+.chat-form{
+    margin-top: 20px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.chat-formtextbox{
+    background: #fbfbfb;
+    width:75%;
+    height:50px;
+    border: 2px solid #eee;
+    border-radius: 3px;
+    resize: none;
+    padding: 10px;
+    font-size: 18px;
+    color: #333;
+}
+
+.chat-formtextbox:focus{
+    background: #fff;
+}
+
+.chat-formtextbox::-webkit-scrollbar{
+    width:10px;
+}
+
+.chat-formtextbox::-webkit-scrollbar-thumb{
+    border-radius:5px;
+    background: rgba(0,0,0,.1);
+}
+
+.chat-formbutton {
+    background: #0c93ed;
+    padding: 5px 10px;
+    font-size: 20px;
+    color: #fff;
+    border: none;
+    margin-left:10px;
+    margin-bottom:5px;
+    border-radius: 3px;
+    box-shadow: 0 3px 0 #0ea0c1;
+    cursor:pointer;
+
+    -webkit-transition: background .2s ease;
+    -moz-transition: background .2s ease;
+    -o-transition: background .2s ease;
+}
+
+.chat-formbutton:hover{
+    background: #13afd9;
+}
+
+
+
+
+
+/*---------------------------------------customer-chat----------------------------------------*/
+
+/*--------------------table css-------------------*/
+
+ div.table-title {
+   display: block;
+  margin: auto;
+  max-width: 200px;
+  padding:5px;
+  width: 100%;
+}
+
+.table-title h3 {
+   color: #fafafa;
+   font-size: 30px;
+   font-weight: 400;
+   font-style:normal;
+   font-family: "Roboto", helvetica, arial, sans-serif;
+   text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+   text-transform:uppercase;
+}
+
+
+/*** Table Styles **/
+
+.table-fill {
+  background: white;
+  border-radius:3px;
+  border-collapse: collapse;
+  min-height:50px;
+  height: auto;
+  margin: auto;
+  max-width: 300px;
+  padding:5px;
+  width: 100%;
+  border:1px solid #d4d4d4;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  animation: float 5s infinite;
+}
+ 
+th {
+  color:#D5DDE5;;
+  background:#1b1e24;
+  border-bottom:4px solid #9ea7af;
+  border-right: 1px solid #343a45;
+  font-size:23px;
+  font-weight: 100;
+  padding:24px;
+  text-align:left;
+  height:40px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  vertical-align:middle;
+}
+
+th:first-child {
+  border-top-left-radius:3px;
+}
+ 
+th:last-child {
+  border-top-right-radius:3px;
+  border-right:none;
+}
+  
+tr {
+  border-top: 1px solid #C1C3D1;
+  border-bottom-: 1px solid #C1C3D1;
+  color:#191919;
+  height:60px;
+  font-size:16px;
+  font-weight:normal;
+  text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
+}
+ 
+tr:hover td {
+  background:#e6e6e6;
+  color:#000000;
+}
+ 
+tr:first-child {
+  border-top:none;
+}
+
+tr:last-child {
+  border-bottom:none;
+}
+ 
+tr:nth-child(odd) td {
+  background:#f5f5f5;
+}
+ 
+tr:nth-child(odd):hover td {
+  background:#e6e6e6;
+}
+
+tr:last-child td:first-child {
+  border-bottom-left-radius:3px;
+}
+ 
+tr:last-child td:last-child {
+  border-bottom-right-radius:3px;
+}
+ 
+td {
+  background:#FFFFFF;
+  padding:8px;
+  text-align:left;
+  vertical-align:middle;
+  font-weight:300;
+  font-size:18px;
+  text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+  border-right: 1px solid #C1C3D1;
+}
+
+td:last-child {
+  border-right: 0px;
+}
+
+th.text-left {
+  text-align: left;
+  padding-left:5px;
+}
+
+th.text-center {
+  text-align: center;
+  padding-left:5px;
+}
+
+th.text-right {
+  text-align: right;
+  padding-left:5px;
+}
+
+td.text-left {
+  text-align: left;
+  padding-left:7px;
+}
+
+td.text-center {
+  text-align: center;
+  padding-left:5px;
+}
+
+td.text-right {
+  text-align: right;
+  padding-left:5px;
+}
+
+.tabledescriptionwidth{
+    width:250px;
+}
+
+.spacelefttable{
+    padding-left:7px;
+}
+
+/*--------------------------table css--------------------------*/
+
+/*--------------------------Bid css----------------------------*/
+.divorderidbid{
+    width:auto;
+  border-bottom: 1px solid #C1C3D1;
+  font-weight:bold;
+  font-size:24px;
+}
+
+.div-orderinfo{
+    width:500px;
+    float:left;
+}
+
+.div-orderbid{
+    padding-left:530px;
+    width:910px;
+}
+
+
+
+
+.div-descinfo{
+    width:200px;
+    height:10px;
+}
+
+.div-duoqueue{
+    font-size:13px;
+    color:#000000;
+    background-color:#fef900;
+    padding:1px;
+    width:89px;
+    border-radius: 7px;
+}
+
+.div-soloflex{
+    font-size:13px;
+    color:#000000;
+    background-color:#59bafb;
+    padding:1px;
+    width:80px;
+    margin-top:-17px;
+    margin-left:95px;
+    border-radius: 7px;
+}
+.spandivsbid{
+    width:auto;
+    padding-top:15px;
+}
+
+.spandiv1bid{
+    width:25%;
+    font-weight:bold;
+}
+.spandiv2bid{
+    width:25%;
+    margin-top:-82px;
+    margin-left:300px;
+    font-weight:bold;
+}
+.spandiv3bid{
+    width:25%;
+    margin-top:-81px;
+    margin-left:600px;
+    font-weight:bold;
+}
+
+.spandiv4bid{
+    width:auto;
+    padding-top:15px;
+    padding-bottom:8px;
+    font-weight:bold;
+}
+
+.spanredcolor{
+    color:red;
+}
+
+.centerobjectforbid{
+    width:400px; 
+    min-width:400px; 
+    margin:0 auto;
+}
+
+.divtimeleft1{
+    font-weight:normal;
+    font-size:24px;
+    
+    text-align:center;
+}
+
+.divtimeleft2{
+    font-weight:bold;
+    font-size:32px;
+    text-align:center;
+}
+
+.divcurrentbid1{
+    font-weight:normal;
+    font-size:20px;
+    text-align:center;
+}
+
+.divcurrentbid2{
+    font-weight:bold;
+    font-size:20px;
+text-align:center;
+}
+
+.divcurrentboosterwinbid1{
+    text-align:center;
+    font-weight:bold;
+    font-size:20px;
+    padding-top:18px;
+}
+
+
+.buttonforbid{
+background-color:#1cc0fe;
+   margin:2px;
+   margin-left:10px;
+   margin-right:-19px;
+   padding:10px;
+   color:white;
+   border-radius: 7px;
+}
+.buttonbid{
+    background-color: #00a9ff;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    margin-left:90px;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    font-weight:bold;
+    border-radius: 3px;
+}
+
+.buttonbid:hover {
+    opacity: 0.8;
+}
+.bidtbprice{
+    margin-top:-64px;
+    margin-left:120px;
+}
+.bidtbpricecss{
+    width: 85px;
+    padding: 12px 20px;
+    margin: 6px 0;
+    margin-left:85px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-weight:bold;
+    font-size:20px;
+}
+/*--------------------------Bid css----------------------------*/
+
+.button-for-checkout{
+   background-color:#1cc0fe;
+   margin:2px;
+   margin-left:10px;
+   margin-right:-19px;
+   padding:10px;
+   color:white;
+   border-radius: 7px;
+}
+
+.indextitlesdivs{
+    margin-left:20px;
+    margin-top:-40px;
+    margin-bottom:10px;
+    font-size:20px;
+    color:rgb(72, 72, 72);
+}
+
+.dashboardleftside{
+    float:left;
+    width:50%;
+}
+
+.yourorderdiv{
+    width:650px;
+    background-color:#ebebeb;
+    padding-top:50px;
+    padding-bottom:30px;
+    margin-left:20px;
+    border-radius: 5px;
+}
+
+.newsdiv{
+    width:650px;
+    background-color:#ebebeb;
+    padding-top:50px;
+    padding-bottom:30px;
+    margin-top:20px;
+    margin-left:20px;
+    border-radius: 5px;
+}
+
+.newstitletext{
+    font-weight:bold;
+    font-size:20px;
+    margin-top:20px;
+    margin-left:20px;
+    margin-bottom:20px;
+}
+
+.newstext{
+    font-size:15px;
+    margin-top:20px;
+    margin-left:20px;
+    margin-bottom:0px;
+}
+
+.dashboardrightside{
+    float:right;
+    width:50%;
+}
+
+
+.availableorderdiv{
+    width:650px;
+    background-color:#ebebeb;
+    padding-top:50px;
+    padding-bottom:30px;
+    margin-left:20px;
+    border-radius: 5px;
+}
+
+.rulesdiv{
+    width:650px;
+    background-color:#ebebeb;
+    padding-top:50px;
+    padding-bottom:30px;
+    margin-top:20px;
+    margin-left:20px;
+    border-radius: 5px;
+}
+
+.oorderinfodiv{
+    width:310px;
+    padding-top:45px;
+    padding-bottom:5px;
+    margin-left:20px;
+    background-color:#e4e4e4;
+    border-radius: 5px;
+}
+
+.oaccountinfodiv{
+    width:310px;
+    padding-top:45px;
+    padding-bottom:5px;
+    margin-left:20px;
+    margin-top:15px;
+    background-color:#e4e4e4;
+    border-radius: 5px;
+}
+
